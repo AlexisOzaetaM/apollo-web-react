@@ -4,6 +4,10 @@
 [![](https://img.shields.io/badge/Node%20JS-12.14.1-green)](https://nodejs.org/es/download/)
 [![](https://img.shields.io/badge/React%20JS-16.12.0-blue)](https://es.reactjs.org)
 
+## Contributions from the original project
+![imagen](https://user-images.githubusercontent.com/42324882/131198265-08a8d51a-3291-4eed-9afa-ba675d847543.png)
+
+
 ## Index
 * Installations
     * [Visual Studio Code](#VSC) 

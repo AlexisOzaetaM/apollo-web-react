@@ -1,0 +1,61 @@
+.module-checkbox-wrapper {
+    width: 85%;
+    padding: var(--padding-xxsmall) 0 0 var(--padding-big);
+}
+
+.titulo {
+    font-size: var(--text-titulevelmodal);
+    font-weight: bold;
+}
+
+.module-title {
+    width: 85%;
+}
+
+.checkmark {
+    display: inline-block;
+    width: var(--width-height-levelmodalcheckmark);
+    height: var(--width-height-levelmodalcheckmark);
+    background-color: #ddd;
+    border-radius: var(--border-radius-levelmodalcheckmark);
+    position: relative;
+    cursor: pointer;
+}
+
+.checkmark:hover {
+    background-color: var(--secondary-light-color);
+}
+
+.module-checkbox-wrapper input[type=checkbox]:checked+label {
+    background-color: var(--secondary-light-color);
+}
+
+.checkmark::after {
+    content: "";
+    position: absolute;
+    width: var(--width-levelmodal-checkafter);
+    height: var(--height-levelmodal-checkafter);
+    border-right: var(--boder-right-levelmodal-checkafter);
+    border-bottom: var(--boder-bottom-levelmodal-checkafter);
+    top: 40%;
+    left: 50%;
+    transform: translate(-50%, -50%) rotateZ(40deg);
+}
+
+.instructions {
+    color: var(--text-color);
+    margin: var(--margin-xxsmall) 0;
+}
+
+.transaction-title {
+    display: inline-block;
+    top: -0.13rem;
+    margin-left: var(--margin-levelmodal-descrip);
+    position: relative;
+}
+
+@media (max-width: 576px) {
+    .module-checkbox-wrapper {
+        padding-left: var(--padding-levelmodalcheck-movil);
+    }
+}

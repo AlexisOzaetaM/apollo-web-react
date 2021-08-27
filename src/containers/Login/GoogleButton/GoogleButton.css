@@ -1,0 +1,42 @@
+.button-wrapper-google,
+button {
+    cursor: pointer;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.button-wrapper-google {
+    width: var(--width-button-input);
+    height: var(--height-button);
+    background-color: transparent;
+    border-radius: var(--border-radius);
+    border: var(--border-color) solid 1px;
+    margin: var(--margin-xsmall) auto;
+}
+
+.button-wrapper-google>button {
+    width: 100%;
+    height: var(--height-button);
+    font-weight: bold;
+    background-color: transparent;
+    border-style: none;
+    font-size: 1rem;
+}
+
+.button-wrapper-google>button::after {
+    content: "Acceder con Google";
+    margin-left: 1rem;
+}
+
+.button-wrapper-google>button>img {
+    max-height: 1.5rem;
+}
+
+@media (max-width: 576px) {
+    .button-wrapper-google {
+        margin: var(--margin-xsmall) auto;
+        width: var(--width-button-input-movil);
+        height: var(--height-button-movil);
+    }
+}

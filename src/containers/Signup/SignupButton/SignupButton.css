@@ -1,0 +1,42 @@
+@import '../../../dimens.css';
+@import '../../../colors.css';
+
+.button-wrapper-signup, button {
+    cursor: pointer;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.button-wrapper-signup {
+    width: var(--width-button-login-signup);
+    height: var(--height-button-login-signup);
+    padding: var(--padding-xsmall);
+    margin: var(--margin-small) auto 0 auto;
+    background-color: var(--secondary-light-color);
+    border-radius: var(--border-radius);
+    border: var(--secondary-light-color) solid 1px;
+}
+
+.button-wrapper-signup button::after {
+    content: 'Registrarse';
+    color: white;
+}
+
+.button-wrapper-signup  button {
+    width: 100%;
+    height: 100%;
+    outline-style: none;
+    font-weight: bold;
+    background-color: transparent;
+    border-style: none;
+    font-size: 1rem;
+}
+
+@media (max-width: 576px) {
+    .button-wrapper-signup {
+        margin: var(--margin-xsmall) 0;
+        width: var(--width-button-login-signup-movil);
+        height: var(--height-button-login-signup-movil);
+    }
+}

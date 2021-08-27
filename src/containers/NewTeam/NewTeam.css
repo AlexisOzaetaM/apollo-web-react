@@ -1,0 +1,25 @@
+.new-team-container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    flex-direction: column;
+}
+
+.select-wrapper {
+    margin: var(--margin-xsmall) auto;
+    width: var(--width-button-input);
+}
+
+.select-wrapper > div {
+    padding: var(--padding-xxsmall) 0;
+    border-radius: var(--border-radius);
+    background-color: var(--background-color);
+    color: var(--text-color);
+}
+
+@media (max-width: 576px) {
+    .select-wrapper {
+        width: var(--width-button-input-movil);
+    }
+}

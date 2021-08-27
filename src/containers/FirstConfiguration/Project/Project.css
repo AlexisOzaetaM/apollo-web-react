@@ -1,0 +1,72 @@
+.container-project {
+    width: 100vw;
+    display: flex;
+    flex-direction: column;
+
+    align-items: center;
+    background-color: var(--background-color);
+}
+
+.form-wrapper-project {
+    width: 450px;
+    border-radius: var(--border-radius);
+    border: var(--border-color) solid 1px;
+    padding: var(--padding-big);
+    background-color: white;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+}
+
+form#project-form div.form-InlineButtons {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
+
+form#project-form div.form-InlineButtons div {
+    width: 75%;
+}
+
+div.first-button {
+    display: flex;
+    justify-content: left;
+}
+
+div.second-button {
+    display: flex;
+    justify-content: right;
+}
+
+@media (max-width: 576px) {
+    .container-project {
+        background-color: var(--onBackground-color);
+    }
+
+    .form-wrapper-project {
+        width: 90%;
+        border: 0;
+        padding: 0;
+    }
+
+    form#project-form {
+        padding: 0;
+        width: 100%;
+    }
+
+    form#project-form div.form-InlineButtons {
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+        width: 100%;
+    }
+
+    form#project-form div.form-InlineButtons div {
+        width: 80%;
+    }
+
+    form#project-form span.form-instructions {
+        margin: 0;
+    }
+}

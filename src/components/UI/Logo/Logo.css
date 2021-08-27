@@ -1,0 +1,14 @@
+.apollo-logo-wrapper {
+    width: 200px;
+    margin: var(--margin-logo);
+}
+
+.apollo-logo-wrapper > svg {
+    fill: var(--secondary-light-color);
+}
+
+@media (max-width: 576px) {
+    .apollo-logo-wrapper {
+        margin: var(--margin-top-logo-movil) 0px var(--margin-bottom-logo-movil) 0px;
+    }
+}

@@ -1,0 +1,51 @@
+div.level-card-wrapper {
+    display: grid;
+    grid-template-areas: "level edit delete";
+    grid-template-columns: auto 1rem 1rem;
+}
+
+div.level-card-wrapper div.level-levelname {
+    grid-area: level;
+}
+
+div.level-delete {
+    grid-area: delete;
+    width: 1rem;
+    height: 1rem;
+}
+
+div.level-edit {
+    grid-area: edit;
+    width: 1rem;
+    height: 1rem;
+    position: relative;
+    right: 0.6rem;
+}
+
+div.level-delete svg {
+    fill: var(--icon-color);
+    cursor: pointer;
+}
+
+div.level-edit svg {
+    fill: var(--icon-color);
+    cursor: pointer;
+}
+
+div.card-wrapper:hover div.level-delete svg {
+    fill: red;
+}
+
+div.card-wrapper:hover div.level-edit svg {
+    fill: #fc9403;
+}
+
+@media (max-width: 576px) {
+    div.level-delete svg {
+        fill: red;
+    }
+
+    div.level-edit svg {
+        fill: #fc9403;
+    }
+}

@@ -1,0 +1,39 @@
+:root {
+    /* ================================================ Primary colors ============= */
+    --primary-color: #E1BEE7;
+    --primary-light-color: #FFF1FF;
+    --primary-dark-color: #AF8EB5;
+    /* ================================================ Secondary colors =========== */
+    --secondary-color: #4A0245;
+    --secondary-light-color: #783371;
+    --secondary-dark-color: #26001F;
+    /* ================================================ Text colors ================ */
+    --text-color: #727272;
+    /* ================================================ Background colors ========== */
+    --background-color: #f9f9f9;
+    --background-dark-color: #dfdede;
+    --onBackground-color: #ffffff;
+    /* ================================================ Border colors ============== */
+    --border-color: #D6D6D7;
+    /* ================================================ Icon color ================= */
+    --icon-color: #606060;
+    --icon-light-color: #9f9f9f;
+
+    --facebook-color: #23599b;
+
+    --info-color: #008EC8;
+    --success-color: #43A047;
+    --warning-color: #c68400;
+    --error-color: #b00020;
+}
+
+[data-theme="dark"] {
+    /* ================================================ Primary colors ============= */
+    --primary-color: #02283A;
+    --primary-light-color: #315064;
+    --primary-dark-color: #000015;
+    /* ================================================ Secondary colors =========== */
+    --secondary-color: #E1BEE7;
+    --secondary-light-color: #FFF1FF;
+    --secondary-dark-color: #AF8EB5;
+}

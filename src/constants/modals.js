@@ -1,0 +1,12 @@
+export const NON_MODAL          = 0;
+export const NEW_PROJECT_MODAL  = 1;
+export const EDIT_PROJECT_MODAL = 2;
+export const NEW_TASK_MODAL     = 3;
+export const TASK_MODAL         = 4;
+export const SETTINGS_MODAL     = 5;
+export const LEVELS_MODAL       = 6;
+export const NEW_LEVEL_MODAL    = 7;
+export const EDIT_LEVEL_MODAL   = 8;
+export const TEAMS_MODAL        = 9;
+export const NEW_TEAM_MODAL     = 10;
+export const EDIT_TEAM_MODAL    = 11;

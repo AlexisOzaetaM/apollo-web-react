@@ -1,0 +1,44 @@
+.button-wrapper-facebook,
+button {
+    cursor: pointer;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.button-wrapper-facebook {
+    background-color: var(--facebook-color);
+    border: var(--facebook-color) solid 1px;
+    width: var(--width-button-input);
+    height: var(--height-button);
+    border-radius: var(--border-radius);
+    margin: var(--margin-xsmall) auto;
+}
+
+.button-wrapper-facebook>button {
+    width: inherit;
+    font-weight: bold;
+    height: var(--height-button);
+    background-color: transparent;
+    border-style: none;
+    font-size: 1rem;
+    color: white;
+}
+
+.button-wrapper-facebook>button::after {
+    content: "Acceder con Facebook";
+    margin-left: 1rem;
+}
+
+.button-wrapper-facebook button div svg {
+    max-height: 1.5rem;
+    fill: white;
+}
+
+@media (max-width: 576px) {
+    .button-wrapper-facebook {
+        margin: var(--margin-xsmall) 0;
+        width: var(--width-button-input-movil);
+        height: var(--height-button-input-movil);
+    }
+}

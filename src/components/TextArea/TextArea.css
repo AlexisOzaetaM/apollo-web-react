@@ -1,0 +1,58 @@
+.container-input {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+}
+
+.textA-wrapper {
+    width: var(--width-button-input);
+}
+
+.textA-wrapper>textarea {
+    color: var(--text-color);
+    height: 4rem !important; 
+}
+
+.textA-wrapper {
+    padding: var(--padding-xsmall) 0;
+    margin: var(--margin-xsmall) auto;
+    background-color: var(--background-color);
+    border-radius: var(--border-radius);
+    border: var(--border-color) solid 1px;
+    display: flex;
+}
+
+.invalid {
+    border: red solid 1px;
+}
+
+.textA-wrapper>textarea {
+    width: 100%;
+    outline-style: none;
+    background-color: transparent;
+    border-style: none;
+    justify-content: center;
+    align-items: center;
+    margin: 0 var(--margin-xsmall);
+    font-family: inherit;
+}
+
+.area {
+    width: 100%;
+    resize: none;
+    background-color: var(--background-color);
+    outline: none;
+    border: none;
+    font-size: 1rem;
+}
+
+@media (max-width: 576px) {
+    .textA-wrapper {
+        margin: var(--margin-xsmall) auto;
+        height: var(--height-button-login-signup-movil);
+    }
+
+    .textA-wrapper {
+        width: var(--width-button-input-movil);
+    }
+}

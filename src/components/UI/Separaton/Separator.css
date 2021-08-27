@@ -1,0 +1,12 @@
+.line-wrapper {
+    width: 90%;
+}
+
+span.line {
+    min-height: 2px;
+    height: 2px;
+    display: inline-block;
+    margin: 30px 0;
+    width: inherit;
+    border-bottom: #d6d6d7 solid 2px;
+}

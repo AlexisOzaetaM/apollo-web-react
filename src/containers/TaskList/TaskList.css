@@ -1,0 +1,20 @@
+.container-project-tasks {
+    width: 100%;
+    min-height: 50%;
+    overflow: hidden;
+}
+
+.no-projects-message,
+.no-tasks-message {
+    height: 100%;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+@media (max-width: 576px) {
+    .task-header-item {
+        width: 100vw !important;
+    }
+}

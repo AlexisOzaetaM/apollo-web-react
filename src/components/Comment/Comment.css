@@ -1,0 +1,28 @@
+.container-comment {
+    color: var(--text-color);
+    padding: var(--padding-xxsmall) 0;
+    border-bottom: 1px solid var(--border-color);
+}
+
+.container-comment:first-child {
+    border-top: 1px solid var(--border-color);
+}
+
+.comment-wrapper {
+    display: flex;
+    flex-direction: column;
+}
+
+.user-comment-item,
+.date-comment-item {
+    margin: 0;
+}
+
+.user-comment-item {
+    font-weight: bold;
+    font-size: .9rem;
+}
+
+.date-comment-item {
+    font-size: .8rem;
+}

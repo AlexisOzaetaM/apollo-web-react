@@ -1,0 +1,140 @@
+.select-users {
+    width: 85% !important;
+}
+
+
+.checklu{
+    width: 100%;
+    padding-left:var(--padding-levelmodalcheck)
+}
+.titulo{
+
+font-size: var(--text-titulevelmodal);
+font-weight: bold;
+}
+.titu{
+
+    width: 100%;
+    padding-left: var(--padding-levelmodaltitu);
+}
+
+.checkmark{
+
+    display: inline-block;
+            width:var(--width-height-levelmodalcheckmark);
+            height:var(--width-height-levelmodalcheckmark);
+            background-color: #ddd;
+            border-radius: var(--border-radius-levelmodalcheckmark);
+            position: relative;
+            transition: background-color 0.4s;
+            
+}
+
+input[type=checkbox]:checked + label{
+
+    background-color: var(--secondary-light-color);
+}
+
+
+
+
+
+.checkmark::after{
+content: "";
+  position: absolute;
+    width:  var(--width-levelmodal-checkafter);
+    height: var(--height-levelmodal-checkafter);
+    border-right: var(--boder-right-levelmodal-checkafter);
+    border-bottom: var(--boder-bottom-levelmodal-checkafter);
+    top: 40%;
+    left: 50%;
+    transform: translate(-50%, -50%) rotateZ(40deg);
+}
+
+.instruc{
+
+
+    color: var(--text-color); 
+
+}
+.divi{
+display: flex;
+width: var(--width-levelmodal-divi);
+height: var(--height-levelmodal-divi) !important;
+align-content: center;
+margin-top: 0;
+margin-bottom: 0;
+position: relative;
+top: -3.2rem;
+justify-content: center;
+margin-bottom:var(--margin-levelmodal-divibottom) !important;
+}
+
+
+
+.but{
+    width: var(--width-levelmodal-but);
+
+   
+ 
+}
+
+.descrip{
+    display: inline-block;
+top: -0.13rem;
+ margin-left:var( --margin-levelmodal-descrip);
+   position: relative;
+   
+}
+ .queso{
+margin: px!important;
+
+    color: #f9f9f9 !important;
+ }
+
+
+
+@media (max-width: 576px) {
+    .checklu{
+      
+        padding-left:var(--padding-levelmodalcheck-movil);
+    }
+    
+
+
+.titu{
+
+  
+    padding-left: var(--padding-levelmodaltitu-movil);
+
+
+
+
+
+}
+
+
+
+    
+    
+    
+    .but{
+     
+        margin-left: var( --margin-levelmodal-but-movil);
+    }
+
+
+    .divi{
+        
+        height:var(--height-levelmodal-divi-movil)!important;
+    
+        top: -1.5rem;
+     
+        }
+        
+
+
+
+
+    
+}

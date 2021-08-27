@@ -1,0 +1,50 @@
+a {
+    text-decoration: none;
+}
+
+span.link-option,
+span.link-hint-option {
+    background-color: var(--primary-color);
+    color: var(--secondary-light-color);
+    border-radius: var(--border-radius-xsmall);
+}
+
+span.link-option {
+    padding: 3px 14px;
+}
+
+span.link-hint-option {
+    padding: 0px 8px 3px 8px;
+    display: inline;
+}
+
+form#project-form,
+form#teams-form,
+form#new-team-form {
+    width: inherit;
+    display: flex;
+    align-items: left;
+    flex-direction: column;
+}
+
+form span,
+form span.form-title,
+form span.form-instructions {
+    width: 85%;
+    display: block;
+    margin: 0 auto;
+}
+
+form span.form-title {
+    font-weight: bold;
+    font-size: 1.8rem;
+    margin-top: 1rem;
+    margin-bottom: .4rem;
+}
+
+form span.form-instructions {
+    font-size: .9rem;
+    color: var(--text-color);
+    text-align: left;
+    margin-bottom: 1rem;
+}

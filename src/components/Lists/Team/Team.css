@@ -1,0 +1,68 @@
+div.team-card-wrapper {
+    display: grid;
+    grid-template-areas: "team edit delete";
+    grid-template-columns: auto 1rem 1rem;
+}
+
+div.team-card-wrapper div.team-info-wrapper {
+    grid-area: team;
+    display: flex;
+    flex-direction: column;
+}
+
+div.team-name {
+    font-weight: bold;
+    font-size: 1rem;
+}
+
+div.team-members {
+    margin-top: .2rem;
+    font-size: .9rem;
+}
+
+div.team-delete,
+div.team-edit {
+    display: flex;
+    align-items: center;
+    height: 100%;
+}
+
+div.team-delete {
+    grid-area: delete;
+    width: 1rem;
+}
+
+div.team-edit {
+    grid-area: edit;
+    width: 1rem;
+    position: relative;
+    right: 0.6rem;
+}
+
+div.team-delete svg {
+    fill: var(--icon-color);
+    cursor: pointer;
+}
+
+div.team-edit svg {
+    fill: var(--icon-color);
+    cursor: pointer;
+}
+
+div.card-wrapper:hover div.team-delete svg {
+    fill: red;
+}
+
+div.card-wrapper:hover div.team-edit svg {
+    fill: #fc9403;
+}
+
+@media (max-width: 576px) {
+    div.team-delete svg {
+        fill: red;
+    }
+
+    div.team-edit svg {
+        fill: #fc9403;
+    }
+}

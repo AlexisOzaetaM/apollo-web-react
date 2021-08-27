@@ -1,0 +1,111 @@
+:root {
+    /* ================================================ Padding dimens =================== */
+    --padding-xxxsmall: .3rem;
+    --padding-xxsmall: .5rem;
+    --padding-xsmall: .7rem;
+    --padding-small: 1rem;
+    --padding-normal: .8rem;
+    --padding-medium: 1.2rem;
+    --padding-big: 2rem;
+    --padding-dropdownli: .5rem .5rem;
+    --padding-levelmodalcheck:  6.8rem;
+    --padding-levelmodaltitu:4.4rem;
+    /*movil*/
+    --padding-levelmodalcheck-movil:  3.8rem;
+    --padding-levelmodaltitu-movil:1.4rem;
+    /* ================================================ Margin dimens ==================== */
+    --margin-xxsmall: .3rem;
+    --margin-xsmall: .5rem;
+    --margin-small: 1rem;
+    --margin-normal: 1.5rem;
+    --margin-big: 2rem;
+    --margin-xbig: 2.5rem;
+    --margin-xxbig: 3rem;
+    --margin-between-inputs-buttons: .5rem;
+    --margin-logo: 3rem;
+    --margin-top-logo: 3rem;
+    --margin-levelmodal-divibottom: .2rem!important;
+    --margin-levelmodal-descrip: 0.5rem;
+    
+    /* Movil */
+    --margin-logo-movil: 2rem;
+    --margin-top-logo-movil: 3rem;
+    --margin-bottom-logo-movil: 1rem;
+    --margin-levelmodal-but-movil: 0rem;
+    /* ================================================ Text dimens ====================== */
+    --text-size-normal: 1rem;
+    --text-titulevelmodal: 1.1rem;
+    /* Movil */
+    --text-size-normal-movil: 1rem;
+    /* ================================================ Radius dimens ==================== */
+    --border-radius-xsmall: .3rem;
+    --border-radius: .5rem;
+    --border-radius-dropdown: 0.2rem;
+    --border-radius-dropwdownavatar: 3.3rem;
+    --border-radius-levelmodalcheckmark:2px;
+    /*movil*/
+    --border-radius-dropwdownavatar-movil: 3.3rem;
+    /* ================================================ Width and Height dimens ========== */
+    --width-form: 35rem;
+    --width-button-input: 85%;
+    --width-button-login-signup: 80%;
+    --height-button-login-signup: 1.8rem;
+    --height-button: 3.5rem;
+    --width-button: 85%;
+    --width-avatar-form: 4.5rem;
+    --height-avatar-form: 4.5rem;
+    --width-card: 85%;
+
+    --height-dropdowntotal: 100%;
+    --width-dropdowntotal: 11.2%;
+
+    --right-pluslu: 1rem;
+    --top-pluslu: 3.2rem;
+    --width-pluslu: 6.5rem;
+
+    --top-avatarlu: 3.8rem;
+    --right-avatarlu: 0rem;
+
+    --height-plusbutton: 1.9rem;
+    --width-plusbutton: 1.9rem;
+
+    --height-avatarbutton: 3rem;
+    --width-avatarbutton: 3rem;
+
+
+--width-height-levelmodalcheckmark: 1rem;
+--width-levelmodal-checkafter: .2rem ;
+--height-levelmodal-checkafter: .5rem;
+--boder-right-levelmodal-checkafter: .2rem solid white;
+--boder-bottom-levelmodal-checkafter: .2rem solid white;
+
+--width-levelmodal-divi: 100%;
+--height-levelmodal-divi: .5rem;
+--width-levelmodal-but: 100%;
+    /*Movil */
+    --width-button-input-movil: 95%;
+    --height-button-login-signup-movil: 1.8rem;
+    --height-button-movil: 3.5rem;
+    --width-button-movil: 85%;
+    --width-avatar-form-movil: 3.6rem;
+    --height-avatar-form-movil: 3.6rem;
+    --width-card-movil: 95%;
+
+    --height-dropdowntotal-movil: 100%;
+    --width-dropdowntotal-movil: 20%;
+
+    --right-pluslu-movil: 0rem;
+    --top-pluslu-movil: 2.8rem;
+    --width-pluslu-movil: 6.5rem;
+
+    --top-avatarlu-movil: 3.2rem;
+    --right-avatarlu-movil: 0rem;
+
+    --height-plusbutton-movil: 1.5rem;
+    --width-plusbutton-movil: 1.5rem;
+
+    --height-avatarbutton-movil: 2.4rem;
+    --width-avatarbutton-movil: 2.4rem;
+
+    --height-levelmodal-divi-movil:  2rem;
+}

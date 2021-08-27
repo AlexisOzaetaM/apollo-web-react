@@ -1,0 +1,18 @@
+.wrapper-hamburguer-icon {
+    display: none;
+}
+
+.wrapper-hamburguer-icon svg {
+    fill: var(--icon-color);
+}
+
+@media (max-width: 576px) {
+    .wrapper-hamburguer-icon {
+        grid-area: menu;
+        height: 1.4rem;
+        width: 1.4rem;
+        display: flex;
+        align-items: center;
+        cursor: pointer;
+    }
+}

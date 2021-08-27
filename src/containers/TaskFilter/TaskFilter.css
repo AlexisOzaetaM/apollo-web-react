@@ -1,0 +1,148 @@
+.task-filter-container {
+    width: 100%;
+    height: 2.5rem;
+    padding: .5rem;
+    margin-bottom: var(--margin-xsmall);
+    border-bottom: solid var(--border-color) 1px;
+
+    display: grid;
+    grid-template-areas: "view search user state team buttons";
+    grid-template-rows: 100%;
+    grid-template-columns: 7rem auto 10rem 8rem 10rem 2rem 10rem;
+}
+
+#view-select {
+    grid-area: view;
+}
+
+#task-search {
+    grid-area: search;
+}
+
+#user-select {
+    grid-area: user;
+}
+
+#state-select {
+    grid-area: state;
+}
+
+#team-select {
+    grid-area: team;
+}
+
+#clean-button:hover svg {
+    fill: red;
+    cursor: pointer;
+}
+
+#reload-button:hover svg {
+    fill: var(--info-color);
+    cursor: pointer;
+}
+
+#task-search,
+#user-select,
+#state-select,
+#team-select,
+#clean-button,
+#apply-button,
+#reload-button {
+    padding-left: var(--padding-xsmall);
+}
+
+.apply-button-wrapper {
+    display: flex;
+    align-items: center;
+}
+
+.apply-button-wrapper button {
+    height: 2rem;
+    border-radius: .2rem;
+    background-color: var(--success-color);
+    font-size: .8rem;
+    color: white;
+}
+
+.apply-button-wrapper button:disabled {
+    height: 2rem;
+    border-radius: .2rem;
+    background-color: var(--icon-color);
+    font-size: .8rem;
+    color: white;
+}
+
+.task-search-wrapper {
+    height: auto;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+
+.task-search-wrapper input {
+    border-style: none;
+    background-color: transparent;
+    color: var(--text-color);
+    font-size: 1rem;
+    padding-left: var(--padding-xsmall);
+    width: 15rem;
+}
+
+.icon {
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.icon svg {
+    width: 1rem;
+    fill: var(--icon-light-color);
+}
+
+.filter-buttons-wrapper {
+    display: flex;
+    flex-direction: row;
+}
+
+@media (max-width: 576px) {
+    .task-filter-container {
+        height: auto;
+        grid-template-areas: 
+            "view view team team"
+            "state state user user"
+            "search search buttons buttons";
+        grid-template-rows: 100% 100% 100%;
+        grid-template-columns: 25% 25% 25% 25%;
+    }
+
+    #team-select,
+    #user-select,
+    #clean-button,
+    #apply-button,
+    #reload-button {
+        padding-left: var(--padding-small);
+    }
+
+    #task-search,
+    #team-select,
+    #user-select {
+        padding-right: var(--padding-small);
+    }
+
+    .filter-buttons-wrapper,
+    #task-search,
+    #user-select,
+    #state-select {
+        padding-top: var(--padding-xsmall);
+    }
+
+    #state-select,
+    #task-search {
+        padding-left: 0;
+    }
+
+    .task-search-wrapper input {
+        width: auto;
+    }
+}

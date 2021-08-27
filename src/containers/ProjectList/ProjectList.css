@@ -1,0 +1,20 @@
+.paperPlane-icon{
+    background-color: white;
+    -webkit-mask-image: url('../../assets/paper-plane.svg');
+    mask-image: url('../../assets/paper-plane.svg');
+    width: 30px;
+    height: 30px;
+}
+.list-projects{
+    margin: 0;
+}
+.list-projects li{
+        display: flex;
+        text-decoration: none;
+        color: white;
+        font-size: 1.2rem;
+}
+.list-projects li:not(:first-child){
+    margin: 0 2.8rem;
+
+}

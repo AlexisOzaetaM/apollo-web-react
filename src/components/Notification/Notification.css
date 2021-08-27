@@ -1,0 +1,26 @@
+.info, .success, .warning, .error {
+    width: 100%;
+    height: auto;
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: var(--padding-xxsmall) 0;
+}
+
+.info {
+    color: gray;
+    background-color: var(--info-color);
+}
+
+.success {
+    background-color: var(--success-color);
+}
+
+.warning {
+    background-color: var(--warning-color);
+}
+
+.error {
+    background-color: var(--error-color);
+}

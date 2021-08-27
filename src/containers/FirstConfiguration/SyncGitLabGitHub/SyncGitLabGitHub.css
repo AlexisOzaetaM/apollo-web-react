@@ -1,0 +1,97 @@
+.container-SyncGitLabGitHub {
+    min-height: 100vh;
+    width: 100vw;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: var(--background-color);
+}
+
+form#SyncGitLabGitHub-form {
+    width: inherit;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+
+form#SyncGitLabGitHub span.form-title {
+    display: inline-block;
+    margin: 0 0 var(--margin-normal) 0;
+    font-weight: bold;
+    font-size: 1.1rem;
+    color: var(--text-color);
+}
+
+form#SyncGitLabGitHub span.instructions {
+    margin: 0 var(--margin-normal);
+    width: var(--width-button-input);
+    font-size: .9rem;
+    color: var(--text-color);
+    text-align: left;
+    display: inline-block;
+    padding: 0 0 0 var(--padding-xsmall);
+}
+
+.form-wrapper-SyncGitLabGitHub {
+    width: 450px;
+    border-radius: var(--border-radius);
+    border: var(--border-color) solid 1px;
+    padding: var(--padding-big);
+    background-color: white;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+}
+
+div.InlineButtons {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    margin: var(--margin-small) auto var(--margin-normal) auto;
+    width: var(--width-button-input);
+}
+
+div.InlineButtons div.secondary {
+    margin-right: 5px;
+}
+
+@media (max-width: 576px) {
+    .container-SyncGitLabGitHub {
+        background-color: var(--onBackground-color);
+    }
+
+    .form-wrapper-SyncGitLabGitHub {
+        width: 90%;
+        border: 0;
+        padding: 0;
+    }
+
+    form#SyncGitLabGitHub-form {
+        padding: 0;
+        width: 100%;
+    }
+
+    form#SyncGitLabGitHub span.instructions {
+        width: var(--width-button-input-movil);
+        padding: 0;
+        margin: 0;
+    }
+
+    form#SyncGitLabGitHub span.form-title {
+        margin: 0 0 var(--margin-xsmall) 0;
+    }
+
+    span.sub-sync {
+        width: 100%;
+        display: inline-block;
+        font-size: .9rem;
+        margin: 0 0 var(--margin-small) 0;
+    }
+
+    div.InlineButtons {
+        width: var(--width-button-input-movil);
+        margin: 0 auto;
+        padding: 0;
+    }
+}

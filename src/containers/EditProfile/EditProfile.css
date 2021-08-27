@@ -1,0 +1,7 @@
+.instrucion{
+
+
+    color: var(--text-color); 
+    position: relative;
+    left: 0.2rem;
+}

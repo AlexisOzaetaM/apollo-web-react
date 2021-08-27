@@ -1,0 +1,16 @@
+.task-comments-container {
+    width: 85%;
+    height: auto;
+    margin: var(--margin-xsmall) auto;    
+    display: flex;
+    flex-direction: column;
+}
+
+.no-comments-message {
+    width: 100%;
+    min-height: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
